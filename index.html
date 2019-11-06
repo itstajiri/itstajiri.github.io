@@ -22,35 +22,35 @@
 <style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h2{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
 <style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h3{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
 <style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h4{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
-<script> 
-	document.onkeydown = function(e) { 
-	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
-	} 
-	return false; 
-	}; 
+	<script> 
+		document.onkeydown = function(e) { 
+		if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
+		} 
+		return false; 
+		}; 
 	</script>
-<script> 
-	function click() { 
-	if (event.button==2||event.button==3) { 
-	oncontextmenu='return false'; 
-	} 
-	} 
-	document.onmousedown=click 
-	document.oncontextmenu = new Function("return false;") 
+	<script> 
+		function click() { 
+		if (event.button==2||event.button==3) { 
+		oncontextmenu='return false'; 
+		} 
+		} 
+		document.onmousedown=click 
+		document.oncontextmenu = new Function("return false;") 
 	</script>
-<script>
-	function disableWheelScroll(){
-	if (document.body.addEventListener) document.body.addEventListener('DOMMouseScroll', blockWheel, false);
-	document.body.onmousewheel = blockWheel;
-	}
-	function blockWheel(event){
-	if (!event) event = window.event;
-	if (event.stopPropagation) event.stopPropagation();
-	else event.cancelBubble = true;
-	if(event.preventDefault) event.preventDefault();
-	else event.returnValue = false;
-	}
-	disableWheelScroll();
+	<script>
+		function disableWheelScroll(){
+		if (document.body.addEventListener) document.body.addEventListener('DOMMouseScroll', blockWheel, false);
+		document.body.onmousewheel = blockWheel;
+		}
+		function blockWheel(event){
+		if (!event) event = window.event;
+		if (event.stopPropagation) event.stopPropagation();
+		else event.cancelBubble = true;
+		if(event.preventDefault) event.preventDefault();
+		else event.returnValue = false;
+		}
+		disableWheelScroll();
 	</script>
 </head>
 <body onmousedown="return false" onselectstart="return false">
@@ -74,9 +74,7 @@ Your browser sucks. Better to upgrade him.
 <h1>tajiri</h1>
 </div>
 	<div class="media fadeInDown">
-		<a href="just a positon, no idea what's wrong with core css" target=_blank"">
-		<i class=" "></i>
-		</a>
+	<a>
 		<a href="http://steamcommunity.com/profiles/76561198091000829" target=_blank"">
 		<i class="fab fa-steam-symbol"></i>
 		</a>
@@ -89,22 +87,9 @@ Your browser sucks. Better to upgrade him.
 		<a href="https://twitter.com/itstajiri" target="_blank">
 		<i class="fab fa-twitter"></i>
 		</a>
-			
-	<div class="media fadeInUp">
-	<br>
-		<a href="just a positon, no idea what's wrong with core css" target=_blank"">
-		<i class=" "></i>
-		</a>
-		<a href="https://vk.com/djksflszkjha" id="vk" target="_blank">
-		<i class="fab fa-vk"></i>
-		</a>
-		<a href="http://steamcommunity.com/profiles/76561197962192573" target=_blank"">
-		<i class="fab fa-steam"></i>
-		</a>
 		<a href="https://myanimelist.net/profile/Tajiri" target="_blank">
 		<i class="far fa-calendar-check"></i>
 		</a>
-
 	<a>
 	<div class="titles fadeInUp">
 		<h3>
@@ -123,7 +108,6 @@ Your browser sucks. Better to upgrade him.
 	</div>
 	</a>
 	</div>
-</div>
 </div>
 </div>
 </div>
