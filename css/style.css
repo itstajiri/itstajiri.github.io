@@ -4,39 +4,6 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 @import url(https://fonts.googleapis.com/css?family=Libre+Barcode+39);
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
-html, body {
-  height: 100%;
-}
-
-body {
-  line-height: 1;
-  /* background-color:#000000; */
-  margin: 0;
-  background: #000000;
-  color: #ffffff;
-  background-color: #000000;
-}
-
-.center {
-  display: flex;
-  -webkit-animation: fade 7s alternate;
-  animation: fade 7s alternate;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-
-h1 {
-  display: block;
-  font-size: 3em;
-  margin: 0.6em 0;
-  font-weight: bold;
-}
-.code {
-	font-family: 'Libre Barcode 39', cursive;;
-	position: absolute;
-	color: #000000;
-}
 
 .glitch {
   font-family: 'Press Start 2P', cursive;
@@ -343,33 +310,4 @@ h1 {
   100% {
     clip: rect(38px, 9999px, 49px, 0);
   }
-}
-
-img {
-  -webkit-animation: fade 5s alternate;
-  animation: fade 5s alternate;
-  display: block;
-}
-
-.artwork {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-}
-
-@-webkit-keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-img {
-  -webkit-animation: fade 5s alternate ;
-  animation: fade 5s alternate ;
-  display: block;
 }
