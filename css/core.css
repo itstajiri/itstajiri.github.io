@@ -56,7 +56,7 @@ video{
 		top:0;
 		left:0;
 		min-height:100%;
-		background:url(../images/overlay.png);
+		background:url(../img/overlay.png);
 		background-repeat:repeat;
 		}
 .mask:before{
