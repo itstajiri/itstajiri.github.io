@@ -4,5 +4,6 @@
 			r_text[2] = "the day will come when the sky will turn bloody";
 			r_text[3] = "very soon the angels will descend from heaven";
 			r_text[4] = "gl hf";
-			var i = Math.floor(5*Math.random())
+			r_text[5] = "the end is near";
+			var i = Math.floor(6*Math.random())
 			document.write(r_text[i]);
