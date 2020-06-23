@@ -20,7 +20,7 @@ video{
 	}
 	.video{
 		overflow:hidden;
-		}
+	}
 		.video-fall{
 			position:absolute;
 			top:0px;
@@ -29,15 +29,26 @@ video{
 			height:100%;
 			overflow:hidden;
 			}
-			.volume-button, .stop-button{
+			.volume-button{
 				font-size:18px;
-				position:relative;
+				position:absolute;
 				z-index:25;
 				top:20px;
-				left:49%;
+				left:50%;
+				margin-left: 2px;
 				cursor:pointer;
 				color:#fff;
-				}
+			}
+			.stop-button{
+				font-size:18px;
+				position:absolute;
+				z-index:25;
+				top:20px;
+				left:50%;
+				margin-left: -19px;
+				cursor:pointer;
+				color:#fff;
+			}
 				
 .pageoverlay{
 	display:block;
